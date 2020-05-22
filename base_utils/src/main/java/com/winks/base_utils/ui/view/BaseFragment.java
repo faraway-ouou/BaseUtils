@@ -12,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.trello.rxlifecycle3.components.support.RxFragment;
+import com.winks.base_utils.request.manager.Api;
+import com.winks.base_utils.request.manager.RequestManager;
 
 
 public abstract class BaseFragment extends RxFragment {
@@ -28,6 +30,7 @@ public abstract class BaseFragment extends RxFragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView = inflater.inflate(getLayoutID(), null);
         isInit = true;
+        RequestManager.getInstance().crateAPI(Api.class);
         return mView;
     }
 

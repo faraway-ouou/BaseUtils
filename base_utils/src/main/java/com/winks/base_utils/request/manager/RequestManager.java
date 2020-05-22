@@ -24,6 +24,10 @@ public class RequestManager {
     private Retrofit mRetrofit;
     public Api getApi;
 
+    public void crateAPI(Class<Api> apiClass) {
+        getApi = createRequestApi(apiClass);
+    }
+
 
     //静态初始化器，由JVM来保证线程安全
     private static class RequestManagerHodler {
