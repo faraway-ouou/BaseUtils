@@ -17,7 +17,7 @@ import com.winks.base_utils.request.manager.RequestManager;
 
 
 public abstract class BaseFragment extends RxFragment {
-    private View mView;
+    protected View mView;
     private Activity mActivity;
     public Context mContext;
     private LayoutInflater mInflater;
@@ -30,9 +30,9 @@ public abstract class BaseFragment extends RxFragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView = inflater.inflate(getLayoutID(), null);
         isInit = true;
-        RequestManager.getInstance().crateAPI(Api.class);
         return mView;
     }
+
 
     /**
      * 视图是否已经对用户可见，系统的方法
