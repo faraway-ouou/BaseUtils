@@ -35,6 +35,7 @@ dependencies {
     api 'com.squareup.okhttp3:okhttp:3.9.0'
     api 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     api 'me.jessyan:autosize:1.1.2'
+
 //    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
     api 'com.trello.rxlifecycle3:rxlifecycle:3.0.0'
     api 'com.trello.rxlifecycle3:rxlifecycle-android:3.0.0'
