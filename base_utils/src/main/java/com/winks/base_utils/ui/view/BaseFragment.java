@@ -2,7 +2,6 @@ package com.winks.base_utils.ui.view;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.trello.rxlifecycle3.components.support.RxFragment;
-import com.winks.base_utils.request.manager.Api;
-import com.winks.base_utils.request.manager.RequestManager;
 
 
 public abstract class BaseFragment extends RxFragment {
