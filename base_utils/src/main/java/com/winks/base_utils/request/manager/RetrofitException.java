@@ -20,6 +20,7 @@ import retrofit2.HttpException;
  * @author zhangqin
  * @date 2018/2/10
  */
+
 public class RetrofitException {
 
     private static final int UNAUTHORIZED = 401;
