@@ -1,7 +1,7 @@
 package com.winks.base_utils.ui.mvp;
 import com.winks.base_utils.ui.view.KBaseFragment;
 
-public abstract class KKKBaseMVPFragment<T extends KBasePresenter> extends KBaseFragment implements KBaseView {
+public abstract class KBaseMVPFragment<T extends KBasePresenter> extends KBaseFragment implements KBaseView {
     protected T mPresenter;
 
     @Override

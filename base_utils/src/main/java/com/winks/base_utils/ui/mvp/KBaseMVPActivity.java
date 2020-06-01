@@ -7,7 +7,7 @@ import com.winks.base_utils.ui.view.KBaseActivity;
  * MVP KBaseActivity
  * @param <T>
  */
-public  abstract  class KKKBaseMVPActivity<T extends KBasePresenter> extends KBaseActivity implements KBaseView {
+public  abstract  class KBaseMVPActivity<T extends KBasePresenter> extends KBaseActivity implements KBaseView {
     protected T mPresenter;
 
     /**
