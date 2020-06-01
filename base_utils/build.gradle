@@ -26,14 +26,14 @@ android {
 }
 
 dependencies {
-//    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
-//    api 'io.reactivex.rxjava2:rxjava:2.1.5'
-//    api 'com.squareup.retrofit2:retrofit:2.3.0'
-//    api 'com.squareup.retrofit2:converter-gson:2.3.0'
-//    api 'com.squareup.retrofit2:converter-scalars:2.3.0'
-//    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-//    api 'com.squareup.okhttp3:okhttp:3.9.0'
-//    api 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    api 'io.reactivex.rxjava2:rxjava:2.1.5'
+    api 'com.squareup.retrofit2:retrofit:2.3.0'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    api 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    api 'com.squareup.okhttp3:okhttp:3.9.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.9.0'
     api 'me.jessyan:autosize:1.1.2'
     api 'com.trello.rxlifecycle3:rxlifecycle:3.0.0'
     api 'com.trello.rxlifecycle3:rxlifecycle-android:3.0.0'
