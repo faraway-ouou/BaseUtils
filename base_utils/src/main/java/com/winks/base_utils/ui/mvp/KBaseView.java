@@ -1,5 +1,5 @@
 package com.winks.base_utils.ui.mvp;
-public interface BaseView {
+public interface KBaseView {
     /**
      * 网络错误
      */

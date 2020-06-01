@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 import com.trello.rxlifecycle3.components.support.RxFragment;
 
 
-public abstract class BaseFragment extends RxFragment {
+public abstract class KBaseFragment extends RxFragment {
     protected View mView;
     private Activity mActivity;
     public Context mContext;

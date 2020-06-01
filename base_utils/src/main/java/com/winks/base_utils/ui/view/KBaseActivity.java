@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import com.trello.rxlifecycle3.components.support.RxAppCompatActivity;
 
 
-public abstract class BaseActivity extends RxAppCompatActivity {
+public abstract class KBaseActivity extends RxAppCompatActivity {
     protected Context mContext;
 
     @Override

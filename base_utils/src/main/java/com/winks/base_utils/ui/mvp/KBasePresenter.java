@@ -1,6 +1,6 @@
 package com.winks.base_utils.ui.mvp;
 
-public class BasePresenter<V extends BaseView>{
+public class KBasePresenter<V extends KBaseView>{
     protected V mView;
     /**
      * 绑定view，一般在初始化中调用该方法

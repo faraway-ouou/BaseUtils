@@ -1,13 +1,13 @@
 package com.winks.base_utils.ui.mvp;
 
 
-import com.winks.base_utils.ui.view.BaseActivity;
+import com.winks.base_utils.ui.view.KBaseActivity;
 
 /**
- * MVP BaseActivity
+ * MVP KBaseActivity
  * @param <T>
  */
-public  abstract  class BaseMVPActivity<T extends BasePresenter> extends BaseActivity implements BaseView {
+public  abstract  class KKKBaseMVPActivity<T extends KBasePresenter> extends KBaseActivity implements KBaseView {
     protected T mPresenter;
 
     /**
